@@ -1,0 +1,39 @@
+/* Main  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* VARIABLES */
+:root {
+    /* colors  */
+    --1-color: #8cb8d2;
+    --2-color: #ffffff;
+    --text-color: #16161b;
+    --texts-color: #7F7F7F;
+    --bg-color: #ebedfa;
+    --bgc-color: #F3F3F3;
+
+
+    /* main font  */
+    --main-font: 'Poppins', sans-serif;
+
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 2rem;
+}
+
+/* BASE STYLES */
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: var(--main-font);
+    color: var(--text-color);
+    background-color: var(--bgc-color);
+    line-height: 1.6;
+}
