@@ -1,4 +1,4 @@
-/* Main  */
+/* Main */
 * {
     margin: 0;
     padding: 0;
@@ -24,7 +24,7 @@
     --spacing-lg: 2rem;
 }
 
-/* BASE STYLES */
+/* BASIC STYLES */
 html {
     font-size: 16px;
     scroll-behavior: smooth;
@@ -61,8 +61,9 @@ ul, li {
 }
 
 .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: -1;
     cursor: pointer;
 }
 
@@ -114,8 +115,7 @@ ul, li {
   transform: scale(1.05);
 }
 
-
-/* --------------------------------------- */
+/* -------Hero Page----------------------- */
 .hero {
     display: flex;
     flex-direction: column;
@@ -176,7 +176,7 @@ ul, li {
 
 .hero-trip-options .second, .hero-trip-options .third {
     background-color: #F1F7FE;
-    color: var(--1-color);
+    color: #8CB8D2;
 }
 
 .hero-place {
@@ -238,7 +238,6 @@ ul, li {
     border: 1px solid #c7c4c4;
     padding: 1rem 0.5rem;
     border-radius: 1rem;
-    /* margin-right: 0.5rem; */
 }
 
 .hero-dates .departure p:first-child, .hero-dates .return p:first-child {
@@ -269,4 +268,130 @@ ul, li {
 .hero-search-btn:hover {
     transform: scale(1.05);
     cursor: pointer;
+}
+
+/* TOP FLIGHT DEALS SECTION */
+.deals {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.deals-header {
+    text-align: center;
+}
+
+.deals-header-title {
+    font-family: montserrat;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.deals-title-info {
+    font-size: 1.3rem;
+    color: #7F7F7F;
+}
+
+.deals-places {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.deals-places-airlines {
+    background-color: #ffffff;
+    padding: 2rem 2rem;
+    border-radius: 1rem;
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.deals-places-airlines-info {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -4rem;
+}
+
+.deals-places-airlines-info p:first-child {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #7F7F7F;
+}
+
+.deals-places-airlines-info p.info {
+    color: #c7c4c4;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.deals-places-airlines-info button {
+    border: none;
+    color: #ffffff;
+    border-radius: 2rem;
+    background-color: #8CB8D2;
+    padding: 0.8rem 1.5rem;
+    width: fit-content;
+    transition: all 0.3s ease;
+}
+
+.deals-places-airlines-info button:hover {
+    transform: scale(1.05);
+}
+
+.deals-places-airlines-img img {
+    position: absolute;
+    left: 0;
+    top: -1rem;
+    width: 250px;
+    height: 330px;
+    border-radius: 1rem;
+}
+
+.deals-places-bookings {
+    position: relative;
+    display: inline-block;
+    border-radius: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.deals-places-airlines:hover, .deals-places-bookings:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.deals-places-bookings img:first-child {
+    display: block;
+}
+
+.deals-places-bookings .image-overlay {
+    position: absolute;
+    left: 1rem;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to top, rgba(1, 1, 1, 0.6), transparent);
+    color: #ffffff;
+    padding: 10px;
+
+}
+
+.deals-places-bookings .image-overlay p{
+    font-weight: 600;
+}
+
+.deals-places-bookings img {
+    width: 240px;
+    height: 330px;
+    border-radius: 1rem;
 }
