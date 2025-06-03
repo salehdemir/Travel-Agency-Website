@@ -441,5 +441,24 @@
             </div>
         </div>
         </section>
+
+         <!-- Script  -->
+    <script>
+        const links = document.querySelectorAll('.nav-links');
+
+        links.forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault(); // Prevent page jump if using #
+                links.forEach(l => l.classList.remove('active')); // Remove all active
+                this.classList.add('active'); // Add active to clicked link
+            });
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js"
+        crossorigin="anonymous"></script>
+
+
+    <script src="script.js"></script>
+    
 </body>
 </html>
