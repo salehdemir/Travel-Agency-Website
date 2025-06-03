@@ -487,3 +487,262 @@ ul, li {
     -webkit-backdrop-filter: blur(18.2px);
     border: 1px solid rgba(255, 255, 255, 0.61);
 }
+
+/* BOOKING SECTION  */
+.booking {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.booking-header {
+    text-align: center;
+}
+
+.booking-title {
+    font-family: montserrat;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.booking-title-info {
+    font-size: 1rem;
+    color: #7F7F7F;
+}
+
+.booking-main {
+    width: 1000px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.booking-main-hotel_moxy {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    transition: all 0.3s ease;
+}
+
+.booking-main-hotel_moxy:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.booking-main img {
+    width: 100%;
+}
+
+.booking-first {
+    width: 300px;
+}
+
+.booking-img_wrapper {
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+#booking-middle-img {
+    width: 400px; 
+    height: 300px;
+}
+
+#booking-last-img {
+    width: 400px
+}
+
+.booking-main-img_overlay {
+    width: 260px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    position: absolute;
+    bottom: -1.5rem;
+    border-radius: 1rem;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    box-shadow: 0px 10px 37px -3px rgba(0, 0, 0, 0.24);
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.48);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(18.2px);
+    -webkit-backdrop-filter: blur(18.2px);
+    border: 1px solid rgba(255, 255, 255, 0.61);
+}
+
+.booking-middle-img-overlay {
+    text-align: left;
+    bottom: -3.5rem;
+    width: 350px;
+    padding: 0.5rem 1rem;
+}
+
+.booking-middle-img-overlay .booking-overly_label {
+    font-size: 1.4rem;
+}
+
+.booking-middle-img-overlay .booking-overlay_starts {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.booking-middle-img-overlay .booking-overlay_distance {
+    font-size: 0.8rem;
+    font-weight: normal;
+    color: #7F7F7F;
+    margin-bottom: 1rem;
+}
+
+.booking-middle-img-overlay .booking-overlay_btn {
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 2rem;
+    background-color: #16161b;
+    color: #ffffff;
+    position: absolute;
+    right: 1.5rem;
+    top: 70px;
+    transition: all 0.3s ease;
+}
+
+.booking-middle-img-overlay .booking-overlay_btn:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* ------------------------------------ */
+.booking-cars {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    gap: 30px;
+}
+
+.booking-cars-popular {
+    width: 600px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.booking-cars-popular:hover {
+    transform: scale(1.05);
+}
+
+.booking-cars-popular-wrapper{
+    width: 600px;
+    height: 500px;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.booking-cars-popular-wrapper img {
+    width: 600px;
+    transform: translateY(-4rem);
+}
+
+.bookings-cars-popular-overlay {
+    padding: 1rem 2rem;
+    width: 600px;
+    position: absolute;
+    bottom: 1rem;
+}
+
+.bookings-cars-popular-overlay div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bookings-cars-popular-overlay div h1 {
+    font-family: montserrat;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.bookings-cars-popular-overlay div button {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #ebebeb54;
+    border: none;
+    padding: 0 1.5rem;
+    border-radius: 2rem;
+    height: 3rem;
+    box-shadow: 0px 15px 69px -16px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.bookings-cars-popular-overlay div button:hover {
+    transform: scale(1.10);
+}
+
+.bookings-cars-popular-overlay p {
+    font-size: 0.9rem;
+    color: #f3f3f3ef;
+}
+
+.booking-cars-companies {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    gap: 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.booking-cars-companies div {
+    background-color: #ffffff;
+    height: 157px;
+    position: relative;
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+
+}
+
+.booking-cars-companies div img {
+    position: absolute;
+    top: -5px;
+    right: 1rem;
+    width: 250px;
+}
+
+.booking-cars-companies div .bk-img2 {
+    width: 1000px;
+    top: -350px;
+    right: -470px;
+}
+
+.booking-cars-companies div .bk-img3 {
+    width: 400px;
+    top: -70px;
+    right: -60px;
+}
+
+.booking-cars-companies div h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.booking-cars-companies div p {
+    font-size: 0.9rem;
+    color: #7F7F7F;
+}
+
+.booking-cars-companies div button {
+    border: none;
+    background-color: #16161b;
+    color: #ffffff;
+    padding: 0.8rem 2rem;
+    border-radius: 2rem;
+    margin-top: 0.5rem;
+    transition: all 0.3s ease;
+}
