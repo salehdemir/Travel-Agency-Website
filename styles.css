@@ -1090,3 +1090,51 @@ ul, li {
     margin-left: 2rem;
 }
 
+
+.footer-right {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-right h3 {
+    margin-bottom: 1rem;
+}
+
+.footer-right ul li {
+    padding: 6px 0;
+    color: #c0bebe;
+    transition: all 0.3s ease;
+}
+
+.footer-right ul li:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    color: #e9e9e9;
+}
+
+.footer-app-wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-app-wrapper div.for div.third p.second {
+    color: #fff;
+}
+
+.footer-app p {
+    color: #c0bebe;
+}
+
+.footer-app div.for {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.footer-app div.for:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
