@@ -1046,3 +1046,47 @@ ul, li {
     bottom: -7rem;
 }
 
+/* FOOTER SECTION  */
+.footer img {
+    filter: brightness(0) invert(1);
+}
+
+.footer-right img {
+    width: 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: #16161b;
+    color: #ffffff;
+    padding: 4rem 0;
+}
+
+.footer-contact {
+    width: 20%;
+}
+
+.footer-contact .logo {
+    margin-bottom: 2rem;
+}
+
+.footer-contact .one {
+    color: #c0bebe;
+    padding: 6px 0;
+    position: relative;
+
+}
+
+.footer-contact .one img {
+        width: 20px;
+        position: absolute;
+        left: -2.5rem;
+        top: 0.5rem;
+}
+
+.footer-contact div {
+    margin-left: 2rem;
+}
+
